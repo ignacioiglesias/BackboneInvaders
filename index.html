@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Backbone Example</title>
+  <style>
+    body {
+      background: #000 url(img/bg.jpeg);
+    }
+
+    .ship {
+      position: absolute;
+      background: url(img/ship.png) no-repeat;
+      cursor: crosshair;
+    }
+
+    .ship .body {
+      width: 32px;
+      height: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div id="board"></div>
+  <script type="text/html" id="shipTemplate">
+    <div class="body"></div>
+  </script>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/backbone-min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
