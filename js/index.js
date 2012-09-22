@@ -17,7 +17,7 @@
         'selector': '#board',
         'dimensions': {'width': $(window).width() * 0.66 , 'height': $(window).height() * 0.66 },
         'initialEnemies': 5,
-        'spawnInterval': 4000
+        'spawnInterval': 5000
       },
       'ship': {
         'movemementInterval': 1000,
