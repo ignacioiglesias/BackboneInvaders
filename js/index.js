@@ -108,7 +108,7 @@
       // - `template` provides the HTML template for the views
       // - `attributes` contains:
       //  - `position` an object with `left` and `top` properties.
-      //  - `speed` the speed used to change position 
+      //  - `speed` the speed used to change position
       template: $('#shipTemplate').text(),
       attributes: {
         'position': config.ship.position,
